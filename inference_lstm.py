@@ -62,7 +62,7 @@ def detect(model, lm_list):
     print(results)
     if results[0][0] > 0.5:
         label = "SWING BODY"
-    else:
+    else:  
         label = "SWING HAND"
     return label
 
